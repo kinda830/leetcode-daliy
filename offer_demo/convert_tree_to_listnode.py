@@ -34,25 +34,19 @@ def convert_node(tree, last_node):
 
         if current_node.left:
             last_node = convert_node(current_node.left, last_node)
-        else:
-            last_node = current_node
-            return last_node
 
         current_node.left = last_node
 
         if last_node:
             last_node.right = current_node
-
+        
         last_node = current_node
 
         if current_node.right:
             last_node = convert_node(current_node.right, last_node)
-        else:
-            current_node.left = last_node
-            last_node = current_node
+        
         return last_node
-    else:
-        return None
+    return None
 
 
 tree1 = Tree(10)
