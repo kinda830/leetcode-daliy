@@ -6,6 +6,7 @@
 @version      	:1.0
 '''
 
+
 class Tree():
     def __init__(self, value) -> None:
         self.value = value
@@ -26,7 +27,6 @@ def covert(tree):
     return head_list
 
 
-
 def convert_node(tree, last_node):
 
     if tree:
@@ -34,9 +34,6 @@ def convert_node(tree, last_node):
 
         if current_node.left:
             last_node = convert_node(current_node.left, last_node)
-        else:
-            last_node = current_node
-            return last_node
 
         current_node.left = last_node
 
@@ -47,9 +44,7 @@ def convert_node(tree, last_node):
 
         if current_node.right:
             last_node = convert_node(current_node.right, last_node)
-        else:
-            current_node.left = last_node
-            last_node = current_node
+
         return last_node
     else:
         return None
