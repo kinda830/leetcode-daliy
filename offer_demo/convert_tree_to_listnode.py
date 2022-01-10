@@ -6,6 +6,7 @@
 @version      	:1.0
 '''
 
+
 class Tree():
     def __init__(self, value) -> None:
         self.value = value
@@ -24,7 +25,6 @@ def covert(tree):
         head_list = head_list.left
 
     return head_list
-
 
 
 def convert_node(tree, last_node):
