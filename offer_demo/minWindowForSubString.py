@@ -6,11 +6,12 @@
 @version     :1.0
 '''
 
+
 def min_window(s, t):
     result = ""
 
     if s and t:
-        t_fre ={}
+        t_fre = {}
         for tt in t:
             t_fre.setdefault(tt, 0)
             t_fre[tt] += 1
@@ -21,7 +22,7 @@ def min_window(s, t):
         min_lenght = len(s) + 1
 
         while right < len(s):
-            
+
             if s[right] in t_fre.keys():
                 if t_fre[s[right]] > 0:
                     distance -= 1
@@ -39,7 +40,7 @@ def min_window(s, t):
 
                     t_fre[s[left]] += 1
                 left += 1
-                
+
         if min_lenght < len(s) + 1:
             result = s[begin:begin+min_lenght]
 
