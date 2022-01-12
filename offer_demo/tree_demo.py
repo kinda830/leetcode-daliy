@@ -1,4 +1,10 @@
-# 从上到下打印二叉树
+'''
+@filename		:tree_demo.py
+@Description	:从上到下打印二叉树
+@Date			:2022/01/12 10:59:39
+@Author      	:hjd
+@version      	:1.0
+'''
 
 class Queue():
     def __init__(self) -> None:

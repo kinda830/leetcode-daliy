@@ -1,8 +1,9 @@
 '''
-@Description:       :机器人的运动范围
-@Date     :2021/12/23 22:49:14
-@Author      :kinda
-@version      :1.0
+@filename		:movingcount.py
+@Description	:机器人的运动范围
+@Date			:2022/01/12 10:55:38
+@Author      	:hjd
+@version      	:1.0
 '''
 
 

@@ -1,8 +1,9 @@
 '''
-@Description: 求最长不重复子串的长度
-@Date     :2021/12/20 22:45:51
-@Author      :kinda
-@version      :1.0
+@filename		:lengthOfLongestSubstring.py
+@Description	:求最长不重复子串的长度
+@Date			:2022/01/12 10:41:05
+@Author      	:hjd
+@version      	:1.0
 '''
 
 

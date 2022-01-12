@@ -1,9 +1,9 @@
 '''
-@file        :HasSubTree.py
-@Description: 在一棵二叉树上寻找是否存在另一个小的二叉树的子树
-@Date     :2021/12/26 22:02:33
-@Author      :kinda
-@version      :1.0
+@filename		:HasSubTree.py
+@Description	:在一棵二叉树上寻找是否存在另一个小的二叉树的子树
+@Date			:2022/01/12 10:21:33
+@Author      	:hjd
+@version      	:1.0
 '''
 
 

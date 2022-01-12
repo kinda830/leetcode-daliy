@@ -1,8 +1,9 @@
 '''
-@Description:       :
-@Date     :2021/12/12 15:11:42
-@Author      :xia
-@version      :1.0
+@filename		:duplicateInArray.py
+@Description	:查找一个数组中重复的数值
+@Date			:2022/01/12 10:33:40
+@Author      	:hjd
+@version      	:1.0
 '''
 
 

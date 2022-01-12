@@ -18,8 +18,9 @@ def more_half_num(numbers):
             count -= 1
         else:
             count += 1
-    
+
     return number
+
 
 if __name__ == "__main__":
     numbers = [1, 2, 3, 4, 4, 4, 4, 4, 5, 4, 6, 4]
