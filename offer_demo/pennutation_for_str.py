@@ -6,6 +6,7 @@
 @version      	:1.0
 '''
 
+
 def pennutation(s):
     if s:
         pennutation_core(list(s), 0)
@@ -18,7 +19,7 @@ def pennutation_core(s, i):
         for begin in range(i, len(s)):
             s[begin], s[i] = s[i], s[begin]
 
-            pennutation_core(s, i+1)
+            pennutation_core(s, i + 1)
 
             s[begin], s[i] = s[i], s[begin]
 

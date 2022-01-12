@@ -1,8 +1,9 @@
 '''
-@Description:       :
-@Date     :2021/12/15 22:33:17
-@Author      :kinda
-@version      :1.0
+@filename		:ConstructTree.py
+@Description	:给定二叉树的前序遍历和中序遍历的序列，重构一棵二叉树出来
+@Date			:2022/01/12 10:32:28
+@Author      	:hjd
+@version      	:1.0
 '''
 
 

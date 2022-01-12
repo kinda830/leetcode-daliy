@@ -1,8 +1,9 @@
 '''
-@Description:       :
-@Date     :2021/12/23 21:33:53
-@Author      :kinda
-@version      :1.0
+@filename		:haspath.py
+@Description	:求一个矩阵中，是否可以连续圈出一个目标字符串
+@Date			:2022/01/12 10:17:21
+@Author      	:hjd
+@version      	:1.0
 '''
 
 

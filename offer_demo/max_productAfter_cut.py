@@ -1,9 +1,9 @@
 '''
-@file        :max_productAfter_cut.py
-@Description:
-@Date     :2021/12/25 16:15:29
-@Author      :kinda
-@version      :1.0
+@filename		:max_productAfter_cut.py
+@Description	:给你一根长度为n的绳子，请把绳子剪成m段(m和n都是整数，n>1并且m>1)， 每段绳子的长度记为k[0],k[1],...,k[m]. 请问k[0]*k[1]*...*k[m]可能的最大乘积是多少？
+@Date			:2022/01/12 10:41:36
+@Author      	:hjd
+@version      	:1.0
 '''
 
 
@@ -35,4 +35,4 @@ def max_product_after_cut(length):
 
 
 if __name__ == "__main__":
-    print(max_product_after_cut(5))
+    print(max_product_after_cut(10))

@@ -1,9 +1,9 @@
 '''
-@file        :number_of_one.py
-@Description: 求 一个数字的二进制 1 的个数
-@Date     :2021/12/25 15:59:47
-@Author      :kinda
-@version      :1.0
+@filename		:number_of_one.py
+@Description	:求 一个数字的二进制 1 的个数
+@Date			:2022/01/12 10:56:02
+@Author      	:hjd
+@version      	:1.0
 '''
 
 

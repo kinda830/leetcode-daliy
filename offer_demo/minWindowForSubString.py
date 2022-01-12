@@ -42,7 +42,7 @@ def min_window(s, t):
                 left += 1
 
         if min_lenght < len(s) + 1:
-            result = s[begin:begin+min_lenght]
+            result = s[begin:begin + min_lenght]
 
     return result
 

@@ -1,8 +1,9 @@
 '''
-@Description:       :
-@Date     :2021/12/15 21:44:56
-@Author      :kinda
-@version      :1.0
+@filename		:PrintListReversingly.py
+@Description	:反向打印链表的数据
+@Date			:2022/01/12 10:57:23
+@Author      	:hjd
+@version      	:1.0
 '''
 
 

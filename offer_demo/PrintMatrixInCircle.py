@@ -1,9 +1,9 @@
 '''
-@file        :PrintMatrixInCircle.py
-@Description: 顺时针打印一个矩阵
-@Date     :2021/12/30 21:25:40
-@Author      :kinda
-@version      :1.0
+@filename		:PrintMatrixInCircle.py
+@Description	:顺时针打印一个矩阵
+@Date			:2022/01/12 10:58:28
+@Author      	:hjd
+@version      	:1.0
 '''
 
 
