@@ -1,29 +1,11 @@
 '''
 @file        :IsPopOrder.py
-@Description :给两个序列，判断第二个是否是第一个序列的出栈序列
+@Description :给两个序列, 判断第二个是否是第一个序列的出栈序列
 @Date        :2022/01/04 21:44:45
 @Author      :kinda
 @version     :1.0
 '''
-
-
-class Stack(object):
-    def __init__(self) -> None:
-        super().__init__()
-        self.stack = []
-
-    def push(self, number):
-        self.stack.append(number)
-
-    def pop(self):
-        number = self.stack.pop()
-        return number
-
-    def top(self):
-        return self.stack[-1]
-
-    def lenght(self):
-        return len(self.stack)
+from stack import Stack
 
 
 def is_pop_order(p_push, p_pop):
