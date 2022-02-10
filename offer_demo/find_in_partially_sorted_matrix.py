@@ -1,6 +1,6 @@
 '''
 @filename		:FindInPartiallySortedMatrix.py
-@Description	:在一个行列分别有序的矩阵中，寻找一个目标值的坐标
+@Description	:在一个行列分别有序的矩阵中, 寻找一个目标值的坐标
 @Date			:2022/01/12 10:37:31
 @Author      	:hjd
 @version      	:1.0

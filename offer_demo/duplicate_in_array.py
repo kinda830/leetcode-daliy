@@ -12,9 +12,7 @@ def duplicate_in_array(data):
 
     if data and len(data) > 0:
         for i in range(len(data)):
-            if data[i] == i:
-                continue
-            else:
+            if data[i] != i:
                 if data[i] == data[data[i]]:
                     duplicate.append(data[i])
                 else:
