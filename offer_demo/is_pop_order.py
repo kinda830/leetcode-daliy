@@ -1,6 +1,6 @@
 '''
 @file        :IsPopOrder.py
-@Description :给两个序列，判断第二个是否是第一个序列的出栈序列
+@Description :给两个序列, 判断第二个是否是第一个序列的出栈序列
 @Date        :2022/01/04 21:44:45
 @Author      :kinda
 @version     :1.0
