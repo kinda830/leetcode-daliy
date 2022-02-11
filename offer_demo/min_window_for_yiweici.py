@@ -1,6 +1,6 @@
 '''
 @filename		:min_window_for_yiweici.py
-@Description	:找到字符串中所有字母异位词，滑动窗口解法
+@Description	:找到字符串中所有字母异位词, 滑动窗口解法
 @Date			:2022/01/11 14:20:39
 @Author      	:hjd
 @version      	:1.0

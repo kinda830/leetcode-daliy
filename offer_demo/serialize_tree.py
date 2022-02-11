@@ -6,6 +6,7 @@
 @version      	:1.0
 '''
 
+
 class Tree():
     def __init__(self, value) -> None:
         self.value = value
@@ -24,6 +25,7 @@ def serialize_tree(tree):
             serialize(tree.left)
             serialize(tree.right)
 
+
 def deserialize_tree(tree_list):
     if tree_list:
         root = Tree(tree_list[0])
@@ -41,6 +43,3 @@ def deserialize_tree(tree_list):
                     is_left = False
                 else:
                     current = pre_node
-            
-
-

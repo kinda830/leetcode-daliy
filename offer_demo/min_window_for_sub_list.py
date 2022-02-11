@@ -7,29 +7,29 @@
 '''
 
 
-def min_window(l, target):
+def min_window(numbers, target):
     start, end = 0, 0
-    tmp = l[0]
-    min_length = len(l) + 1
+    tmp = numbers[0]
+    min_length = len(numbers) + 1
     begin = 0
     result = []
-    while end < len(l) and start < len(l) - 1:
+    while end < len(numbers) and start < len(numbers) - 1:
         # tmp += l[end]
 
         if tmp == target and min_length > end - start + 1:
             min_length = end - start + 1
             begin = start
-            tmp -= l[start]
+            tmp -= numbers[start]
             start += 1
         elif tmp > target:
-            tmp -= l[start]
+            tmp -= numbers[start]
             start += 1
         elif tmp < target:
             end += 1
-            tmp += l[end]
+            tmp += numbers[end]
 
-    if min_length < len(l) + 1:
-        result = l[begin:begin + min_length]
+    if min_length < len(numbers) + 1:
+        result = numbers[begin:begin + min_length]
 
     return result
 
