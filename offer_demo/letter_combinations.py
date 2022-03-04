@@ -1,6 +1,6 @@
 '''
 @filename		:letterCombinations.py
-@Description	:给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。答案可以按 任意顺序 返回。
+@Description	:给定一个仅包含数字 2-9 的字符串, 返回所有它能表示的字母组合。答案可以按 任意顺序 返回。
 @Date			:2022/01/11 19:13:52
 @Author      	:hjd
 @version      	:1.0
@@ -34,6 +34,7 @@ def letter_combination(numbers):
     backtrack(0)
 
     return result
+
 
 if __name__ == "__main__":
     s = "23"
