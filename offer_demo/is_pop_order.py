@@ -5,7 +5,7 @@
 @Author      :kinda
 @version     :1.0
 '''
-from stack import Stack
+from utils import Stack
 
 
 def is_pop_order(p_push, p_pop):

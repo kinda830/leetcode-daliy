@@ -12,7 +12,7 @@
 @Author      	:hjd
 @version      	:1.0
 '''
-from stack import Stack
+from utils import Stack
 
 
 def check_valid_string(s):
